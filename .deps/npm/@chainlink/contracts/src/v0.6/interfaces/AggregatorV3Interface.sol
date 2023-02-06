@@ -2,13 +2,31 @@
 pragma solidity ^0.6.0;
 
 interface AggregatorV3Interface {
-  function decimals() external view returns (uint8);
 
-  function description() external view returns (string memory);
+  function decimals()
+    external
+    view
+    returns (
+      uint8
+    );
 
-  function version() external view returns (uint256);
+  function description()
+    external
+    view
+    returns (
+      string memory
+    );
 
-  function getRoundData(uint80 _roundId)
+  function version()
+    external
+    view
+    returns (
+      uint256
+    );
+
+  function getRoundData(
+    uint80 _roundId
+  )
     external
     view
     returns (
@@ -29,4 +47,5 @@ interface AggregatorV3Interface {
       uint256 updatedAt,
       uint80 answeredInRound
     );
+
 }

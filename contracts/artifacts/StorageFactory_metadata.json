@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.12+commit.27d51765"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
@@ -184,7 +184,7 @@
 		"compilationTarget": {
 			"contracts/StorageFactory.sol": "StorageFactory"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -205,11 +205,11 @@
 			]
 		},
 		"contracts/StorageFactory.sol": {
-			"keccak256": "0xf8bdeee08982162621f2b40ca491a6d27ad9f39b5495bc4cca4cf5f8df50348d",
+			"keccak256": "0x00fa698aa45ee6f6bce489f5d04c45548268d6db57928decfd3d1062fa601005",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e390c2096c171605e83b854bbee613816de47eb93c154633a4ae9b2f73571ce1",
-				"dweb:/ipfs/Qma54QsxzYa8fo3y8wYvZ1tG1NJgMTEyWQH1wN9NragRxw"
+				"bzz-raw://ab29372166cc167281c73015bf2c41c4c3554029535fa1a118fb98b62278eee2",
+				"dweb:/ipfs/QmZw6pg9gGR2mv7A3Swt75Xbv6ECTNvG2KexPZ1vZUFUQj"
 			]
 		}
 	},
